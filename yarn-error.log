@@ -1,0 +1,36 @@
+Arguments: 
+  /usr/local/bin/node /usr/share/yarn/bin/yarn.js add express
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/noname/.dotnet/tools:/home/noname/.dotnet/tools
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  11.13.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /media/SeagateHD/Projetos/React/backend/package.json: Unexpected token # in JSON at position 24
+      at JSON.parse (<anonymous>)
+      at /usr/share/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:304:30)
+      at /usr/share/yarn/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "backend",  #Nome aplicação
+    "version": "1.0.0", #Versão
+    "main": "index.js", #Arquivo principal
+    "license": "MIT"    # Licença
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
